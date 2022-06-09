@@ -35,7 +35,7 @@ jobs:
           file: ./src/Dockerfile
           context: ./src
           push: true
-          tags:
+          tags: |
             mrsilvacosta/kubenews:latest
             mrsilvacosta/kubenews:${{github.run_number}}
           
